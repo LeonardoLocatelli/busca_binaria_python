@@ -42,7 +42,7 @@ valor=int(input('Digite o valor a ser procurado no vetor: '))
 vet.sort()
 ret = new_search2(vet, valor, 0, len(vet) - 1)
 if(ret>=0):
-    print('O valor ',valor,' esta no vetor na posicao ',ret+1)
+    print('O valor ',valor,' esta no vetor na posicao:',ret+1)
 else:
     print('O valor ',valor,' nao esta no vetor')
 print(vet)
