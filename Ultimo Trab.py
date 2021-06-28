@@ -32,8 +32,8 @@ def controlaValor(arr, valor):
     else:
         return valor
 
-vet=[0]*10
-for i in range(10):
+vet=[0]*20
+for i in range(20):
     valor=int(input('Digite valor: '))
     vet[i]=controlaValor(vet, valor)
     
